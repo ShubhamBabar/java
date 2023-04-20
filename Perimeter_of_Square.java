@@ -12,9 +12,9 @@ public class Perimeter_of_Square {
 			System.out.print("Enter length of Square (in cm): ");
 			float length =SC.nextFloat();
 			
-			double Perimeter =  4*(length);//Formula for Perimeter of Rectangle is 2*(height + length) .
+			double Perimeter =  4*(length);//Formula for Perimeter of Square is 4*(length) .
 			
-			System.out.print("Perimeter of Rectangle is " +Perimeter+" cm.");
+			System.out.print("Perimeter of Square is " +Perimeter+" cm.");
 
 	}
 
