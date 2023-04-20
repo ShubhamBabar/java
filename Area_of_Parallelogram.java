@@ -7,13 +7,13 @@ public class Area_of_Parallelogram {
 	public static void main(String[] args) {
         Scanner SC =new Scanner(System.in);
 		
-		System.out.print("Enter Height of Parallelogram (in cm): ");
-		float height =SC.nextFloat();
+		System.out.print("Enter value of side of Parallelogram (in cm): ");
+		float side =SC.nextFloat();
 		
-		System.out.print("Enter length of Parallelogram (in cm): ");
+		System.out.print("Enter base of Parallelogram (in cm): ");
 		float length =SC.nextFloat();
 		
-		double Area =  height * length;//Formula for area of Parallelogram is ( height * length) .
+		double Area =  side * base;//Formula for area of Parallelogram is ( side * base) .
 		
 		System.out.print("Area of Parallelogram is " +Area+" cm.");	
 
