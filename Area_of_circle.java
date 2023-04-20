@@ -11,5 +11,6 @@ public class Area_of_circle {
 		double Area = 3.1416 * radius * radius; //Formula for area of circle is (3.1416 * r ** 2)
 		
 		System.out.println("Area of Circle is "+Area+".");		
+	
 	}
 }
